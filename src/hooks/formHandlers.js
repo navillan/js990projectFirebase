@@ -1,11 +1,10 @@
-import React from "react";
 
 
-  export const namePattern = /^[a-zA-ZğüşıöçĞÜŞİÖÇ\s]+$/g;
-  export const emailPattern = /^[\w._-]+@[\w_-]+(\.[\w_-]{2,})+$/g;
-  export const phonePattern = /^(\+90|0)?5[0345][0-9]{8}$/g; // +905xxx, 05xxx, 5xxx
+export const namePattern = /^[a-zA-ZğüşıöçĞÜŞİÖÇ\s]+$/g;
+export const emailPattern = /^[\w._-]+@[\w_-]+(\.[\w_-]{2,})+$/g;
+export const phonePattern = /^(\+90|0)?5[0345][0-9]{8}$/g; // +905xxx, 05xxx, 5xxx
 
-  export const handleNameChange = (setSelectedName, setNameError, namePattern) => (e) => {
+export const handleNameChange = (setSelectedName, setNameError, namePattern) => (e) => {
   setSelectedName(e.target.value);
   if (!namePattern.test(e.target.value)) {
     setNameError("Geçerli bir isim giriniz.");

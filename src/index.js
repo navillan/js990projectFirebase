@@ -1,11 +1,10 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/app.js";
 import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDsZvwGtvhwsAPNkSI67A92g-ekWmYs1MA",
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "test-a1400.firebaseapp.com",
   projectId: "test-a1400",
   storageBucket: "test-a1400.firebasestorage.app",
