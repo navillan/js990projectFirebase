@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Js990Project1/static/js/main.1fe8d54d.js",
-    "index.html": "/Js990Project1/index.html",
-    "main.1fe8d54d.js.map": "/Js990Project1/static/js/main.1fe8d54d.js.map"
+    "main.js": "/Js990ProjectFirebase/static/js/main.88a3f3d4.js",
+    "index.html": "/Js990ProjectFirebase/index.html",
+    "main.88a3f3d4.js.map": "/Js990ProjectFirebase/static/js/main.88a3f3d4.js.map"
   },
   "entrypoints": [
-    "static/js/main.1fe8d54d.js"
+    "static/js/main.88a3f3d4.js"
   ]
 }
