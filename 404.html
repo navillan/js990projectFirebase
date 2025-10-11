@@ -12,9 +12,9 @@
       // Based on https://github.com/rafrex/spa-github-pages
       (function() {
         var l = window.location;
-        var segmentCount = 1; // repo name depth
+        var segmentCount = 0; // repo name depth
         var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-          l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/' +
+          l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?/' +
           l.pathname.split('/').slice(1 + segmentCount).join('/') + l.search + l.hash;
         l.replace(newUrl);
       })();
