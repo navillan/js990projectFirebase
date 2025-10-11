@@ -45,7 +45,9 @@ npm start
 ```
 
 The app runs at http://localhost:3000/js990projectFirestore.
-The admin page runs at http://localhost:3000/js990projectFirestore/admin.
+The admin page runs at http://localhost:3000/admin.
+admin username = admin
+admin password = 1234
 
 ## Deploy (GitHub Pages)
 
@@ -96,7 +98,9 @@ npm install
 npm start
 ```
 Uygulama http://localhost:3000/js990projectFirestore adresinde çalışır.
-Admin sayfası http://localhost:3000/js990projectFirestore/admin adresinde çalışır.
+Admin sayfası http://localhost:3000/admin adresinde çalışır.
+admin kullanıcı adı = admin
+admin parola = 1234
 
 ## Yayınlanmış Hali (GitHub Pages)
 ```bash

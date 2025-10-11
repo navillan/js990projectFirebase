@@ -8,10 +8,11 @@ import StepSelectorEng from "./stepsEng.js";
 const App = () => {
   const [isEnglish, setIsEnglish] = useState(false);
   const path = window.location.pathname;
+  const isAdminRoute = path === "/admin" || path === "/js990projectFirestore/admin";
   const handleLanguageChange = (e) => {
     setIsEnglish(e.target.checked);
   };
-  return path === "/js990projectFirestore/admin"
+  return isAdminRoute
   ? <AdminPage />
   : (
     <div className="container">
