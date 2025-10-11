@@ -7,10 +7,17 @@
     <title>Js990ProjectFirestore</title>
   </head>
   <body>
-    <div id="root"></div>
     <script>
-      // GitHub Pages SPA redirect: ensure we always load the app for deep links.
-      // CRA will handle routing (if added) after hydration.
+      // GitHub Pages SPA redirect (project pages)
+      // Based on https://github.com/rafrex/spa-github-pages
+      (function() {
+        var l = window.location;
+        var segmentCount = 1; // repo name depth
+        var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+          l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/index.html#' +
+          l.pathname.split('/').slice(1 + segmentCount).join('/') + l.search + l.hash;
+        l.replace(newUrl);
+      })();
     </script>
   </body>
   </html>
