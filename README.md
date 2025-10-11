@@ -57,6 +57,8 @@ The site will be available under the project path above. To access the admin vie
  
 - GitHub Pages: https://navillan.github.io/js990projectFirestore.
 - Admin Page: https://navillan.github.io/js990projectFirestore/admin.
+admin username = admin
+admin password = 1234
 
 ```
 
@@ -105,7 +107,9 @@ admin parola = 1234
 ## Yayınlanmış Hali (GitHub Pages)
 ```bash
 
-Yayın URL’si: https://navillan.github.io/js990projectFirebase
+Yayın URL’si: https://navillan.github.io/js990projectFirestore
 
 - Yayın Admin Sayfası: https://navillan.github.io/js990projectFirestore/admin
+admin username = admin
+admin password = 1234
 ```
